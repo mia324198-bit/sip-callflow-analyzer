@@ -1,6 +1,6 @@
 # sipflow — SIP Call Flow & RTP Quality Analyzer
 
-![CI](https://github.com/USERNAME/sip-callflow-analyzer/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/mia324198-bit/sip-callflow-analyzer/actions/workflows/ci.yml/badge.svg)
 
 `sipflow` reads a packet capture (`.pcap`) of VoIP traffic and rebuilds every SIP call in it:
 who called whom, how the call ended, how long setup took, and how good the audio was.
@@ -31,7 +31,7 @@ INVITE retransmissions, and answered calls with no media (no audio in either dir
 ## Quick start
 
 ```bash
-git clone https://github.com/USERNAME/sip-callflow-analyzer.git
+git clone https://github.com/mia324198-bit/sip-callflow-analyzer.git
 cd sip-callflow-analyzer
 python -m pip install -e ".[dev]"
 
